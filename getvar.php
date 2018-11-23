@@ -14,9 +14,9 @@
     echo '<select name="telemetry[ ]" multiple>';
     foreach($arr as $item){
         #replace $items with #item if the system linux
-        $item = str_replace("'",'', $item);
+        $items = str_replace("'",'', $item);
         echo '<option value="'.$item.'">';
-        echo $item;
+        echo $items;
         echo '</option>';
     }
 ?>

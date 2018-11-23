@@ -30,11 +30,13 @@
 		</br></br>
 		<div>			
 			<label for ="StartDate"> Start Date:</label>
-			<input type="datetime-local" name="startdate">
+			<input type="date" name="date1">
+			<input type="time" name="time1">
 		</div>
 		<div>
 			<label for="EndDate">End Date: </label>
-			<input type="datetime-local" name="endate">
+			<input type="date" name="date2">
+			<input type="time" name="time2">
 		</div>
 		<div id="txtHint"></div>
 		<input type="submit" value="Export" class="B_Export">
