@@ -19,7 +19,7 @@
                 document.getElementById("txtHint").innerHTML = this.responseText;
                 }
             };
-        xmlhttp.open("GET","getvar.php?q="+str,true);
+        xmlhttp.open("GET","jsontestget.php?q="+str,true);
         xmlhttp.send();
         }
     }
