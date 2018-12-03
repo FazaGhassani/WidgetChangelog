@@ -6,6 +6,11 @@
 	$var_date2 = $_POST['date2'];
 	$var_time1 = $_POST['time1'];
 	$var_time2 = $_POST['time2'];
+	$var_mode = $_POST['mode'];
+	$var_format = $_POST['Export'];
+	$var_interval = $_POST['interval'];
+
+	$var_interval = $var_interval * 60;
 	$var_startdate = $var_date1.'T'.$var_time1;
 	$var_endate = $var_date2.'T'.$var_time2;
 	$var_arrtel = '[';
@@ -29,15 +34,21 @@
 	#echo '<br/>';
 	#echo $var_arrtel;
 	#echo '<br/>';
+	#echo $var_mode;
+	#echo '<br/>';
+	#echo $var_interval;
+	#echo '<br/>';
+	#echo $var_format;
+	#echo '<br/>';
 	#echo $startdate;
 	#echo '<br/>';
 	#echo $endate;
 	#echo '<br/>';
 
-	$command = escapeshellcmd('python telemetryController.py --mode exportLog --entity_type DEVICE --entity_id '.$var_deviceid.' --keyList '.$var_arrtel.' --startTs '.$startdate.' --endTs '.$endate.' --interval 1200 --isTelemetry 1 --limit 500 --agg AVG --format XLSX');
-	echo $command;
+	$command = escapeshellcmd('python telemetryController.py --mode exportLog --entity_type DEVICE --entity_id '.$var_deviceid.' --keyList '.$var_arrtel.' --startTs '.$startdate.' --endTs '.$endate.' --interval '.$var_interval.' --isTelemetry 1 --limit 500 --agg '.$var_mode.' --format '.$var_format.'');
+	#echo $command;
 	$output = shell_exec($command);
-	echo $output;
+	#echo $output;
 
 	$file = 'C:\xampp\htdocs\scripts\ExportResult\DataLog_'.date("Y-m-d", substr($startdate, 0, 10)).'_sd_'.date("Y-m-d", substr($endate, 0, 10)).'.xlsx';
 	if(file_exists($file)){

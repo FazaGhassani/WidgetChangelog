@@ -2,23 +2,6 @@
 <html>
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<script type="text/javascript">
-		function showHint(str) {
-    		if (str.length == 0) { 
-        		document.getElementById("txtHint").innerHTML = "";
-        		return;
-    		} else {
-        		var xmlhttp = new XMLHttpRequest();
-        		xmlhttp.onreadystatechange = function() {
-            		if (this.readyState == 4 && this.status == 200) {
-                		document.getElementById("txtHint").innerHTML = this.responseText;
-            		}
-        		};
-        		xmlhttp.open("GET", "getvar.php?q=" + str, true);
-        		xmlhttp.send();
-    		}
-		}
-	</script>
 </head>
 <body>
 
@@ -26,8 +9,10 @@
 		<fieldset>
 			<legend>CHANGELOG</legend>
 			<label for="DeviceId"> Device ID: </label>
-			<input type="text" name="deviceid" onkeyup="showHint(this.value)">
+			<!-- <input type="text" name="deviceid" onkeyup="showHint(this.value)"> -->
+			<?php include('jsontest.php'); ?>
 		</br></br>
+		<div id="txtHint"></div>
 		<div>			
 			<label for ="StartDate"> Start Date:</label>
 			<input type="date" name="date1">
@@ -38,9 +23,30 @@
 			<input type="date" name="date2">
 			<input type="time" name="time2">
 		</div>
-		<div id="txtHint"></div>
-		<input type="submit" value="Export" class="B_Export">
+		<br/>
+		<div>
+			<label for="Mode">Mode: </label>
+			<select name="mode">
+				<option value="NONE">None</option>
+				<option value="MIN">Min</option>
+				<option value="MAX">Max</option>
+				<option value="AVG">Average</option>
+				<option value="SUM">Sum</option>
+				<option value="COUNT">Count</option>
+			</select>
+		</div>
+		<br/>
+		<div>
+			<label for="Interval">Interval (minute): </label>
+			<input type="number" min="0" max="100" name="interval">
+		</div>
+		<br/>
+		<div>
+			<input type="submit" name="Export" value="XLSX" class="B_Export">
+			<input type="submit" name="Export" value="CSV" class="B_Export">
+		</div>
 		</fieldset>
 	</form>
+	
 </body>
 </html>
