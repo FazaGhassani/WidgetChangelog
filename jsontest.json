@@ -1,0 +1,14 @@
+{
+	"preset":{
+		"panelAB":[
+			{"namadevice":"A_KW2M-X", "deviceid":"b9b0bcd0-d1ba-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"B_DIRISA20", "deviceid":"f6bffe60-d1ba-11e8-87ee-4be867fcc47c"} 
+		],
+		"panelCD":[
+			{"namadevice":"C_PILOTSPM33", "deviceid":"14ae7ff0-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"D_PILOTSPM33", "deviceid":"376a6810-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"C_ETC", "deviceid":"1be01540-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"D_ETC","deviceid":"3dfefa10-d1bb-11e8-87ee-4be867fcc47c"}
+		]
+	}
+}
