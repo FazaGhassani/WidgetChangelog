@@ -8,7 +8,37 @@
 			{"namadevice":"C_PILOTSPM33", "deviceid":"14ae7ff0-d1bb-11e8-87ee-4be867fcc47c"},
 			{"namadevice":"D_PILOTSPM33", "deviceid":"376a6810-d1bb-11e8-87ee-4be867fcc47c"},
 			{"namadevice":"C_ETC", "deviceid":"1be01540-d1bb-11e8-87ee-4be867fcc47c"},
-			{"namadevice":"D_ETC","deviceid":"3dfefa10-d1bb-11e8-87ee-4be867fcc47c"}
-		]
+			{"namadevice":"D_ETC", "deviceid":"3dfefa10-d1bb-11e8-87ee-4be867fcc47c"}
+		],
+		"panelEG":[
+			{"namadevice":"E_PILOTSPM33", "deviceid":"58b7cc10-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"G_PILOTSPM33", "deviceid":"b57f0490-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"E_ETC", "deviceid":"6afd6100-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"G-H_ETC", "deviceid":"d71afdc0-d1bb-11e8-87ee-4be867fcc47c"}
+		],
+		"panelL1L2":[
+			{"namadevice":"L1_DIRISA20", "deviceid":"08021b20-d1bd-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"L2_DIRISA20", "deviceid":"27438280-d1bd-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"L1_ETC", "deviceid":"169a3870-d1bd-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"L2_ETC", "deviceid":"2f676710-d1bd-11e8-87ee-4be867fcc47c"}
+		],
+		"panelK":[
+			{"namadevice":"K_DIRISA20", "deviceid":"8a68c920-d1bc-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"K_ETC", "deviceid":"906ba270-d1bc-11e8-87ee-4be867fcc47c"}
+		],
+		"LVMDP":[
+			{"namadevice":"LVMDB_PILOTSPM33", "deviceid":"bef9c9c0-d1bf-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"LVMDB-TRAFOROOM_ETC", "deviceid":"ccc03f30-d1bf-11e8-87ee-4be867fcc47c"}
+		],
+		"layoutAC1":[
+			{"namadevice":"ACINS1", "deviceid":"a145c370-d741-11e8-b2de-4be867fcc47c"},
+			{"namadevice":"ACINS2", "deviceid":"0bf19e60-d75b-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCRC1", "deviceid":"422b45f0-d75e-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCRC2", "deviceid":"49cd5050-d75e-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACM1", "deviceid":"4fc4df00-d75e-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACM2", "deviceid":"5515f480-d75e-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACRE1", "deviceid":"69941450-d75e-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACRE3", "deviceid":"7506d5c0-d75e-11e8-a085-4be867fcc47c"}
+		],
 	}
 }
