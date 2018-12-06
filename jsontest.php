@@ -28,10 +28,13 @@
 <body>
 
 <?php
-    //http://localhost/scripts/jsontest.php?preset=presetA
+    //changelog.php?preset=panelAB&json=\jsontest.json
 
     $q = $_GET["preset"];
-    $str = file_get_contents('C:\xampp\htdocs\scripts\jsontest.json');
+    $getjson = $_GET["json"];
+    $str= 'C:\xampp\htdocs\scripts';
+    $str .= $getjson;
+    $str = file_get_contents($str);
     $json = json_decode($str,true);
 
     echo '<select name="deviceid" onchange="showUser(this.value)">';

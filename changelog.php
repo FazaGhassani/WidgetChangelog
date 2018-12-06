@@ -13,6 +13,7 @@
 			<?php include('jsontest.php'); ?>
 		</br></br>
 		<div id="txtHint"></div>
+		</br>
 		<div>			
 			<label for ="StartDate"> Start Date:</label>
 			<input type="date" name="date1">
@@ -41,7 +42,7 @@
 			<input type="number" min="0" max="100" name="interval">
 		</div>
 		<br/>
-		<div>
+		<div class="buttons">
 			<input type="submit" name="Export" value="XLSX" class="B_Export">
 			<input type="submit" name="Export" value="CSV" class="B_Export">
 		</div>

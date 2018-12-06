@@ -51,6 +51,8 @@
 	#echo $output;
 
 	$file = 'C:\xampp\htdocs\scripts\ExportResult\DataLog_'.date("Y-m-d", substr($startdate, 0, 10)).'_sd_'.date("Y-m-d", substr($endate, 0, 10)).'.xlsx';
+
+	#echo $file;
 	if(file_exists($file)){
 		header('Content-Type: application/octet-stream');
 		header("Content-Transfer-Encoding: Binary"); 
