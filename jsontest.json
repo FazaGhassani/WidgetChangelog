@@ -40,6 +40,18 @@
 			{"namadevice":"ACRE1", "deviceid":"69941450-d75e-11e8-a085-4be867fcc47c"},
 			{"namadevice":"ACRE3", "deviceid":"7506d5c0-d75e-11e8-a085-4be867fcc47c"}
 		],
+		"layoutAC3":[
+			{"namadevice":"ACADM1", "deviceid":"a5a1b5a0-d764-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACADM2", "deviceid":"b175a9e0-d764-11e8-a085-4be867fcc47c"}
+		],
+		"layoutAC4":[
+			{"namadevice":"ACCHR1", "deviceid":"e99c82d0-d764-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCHR2", "deviceid":"f3e2d230-d764-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCHR3", "deviceid":"fcc94370-d764-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCHR4", "deviceid":"083f6040-d765-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCHR5", "deviceid":"1efe6f60-d765-11e8-a085-4be867fcc47c"},
+			{"namadevice":"ACCHR6", "deviceid":"12c8d320-d765-11e8-a085-4be867fcc47c"}
+		],
 		"plumbing1-2":[
 			{"namadevice":"PLUMBING1_ETC", "deviceid":"b1d2bdf0-d346-11e8-87ee-4be867fcc47c"},
 			{"namadevice":"PLUMBING2_ETC", "deviceid":"bb049010-d346-11e8-87ee-4be867fcc47c"},
