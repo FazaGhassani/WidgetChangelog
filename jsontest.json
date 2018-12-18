@@ -39,6 +39,16 @@
 			{"namadevice":"ACM2", "deviceid":"5515f480-d75e-11e8-a085-4be867fcc47c"},
 			{"namadevice":"ACRE1", "deviceid":"69941450-d75e-11e8-a085-4be867fcc47c"},
 			{"namadevice":"ACRE3", "deviceid":"7506d5c0-d75e-11e8-a085-4be867fcc47c"}
+		],
+		"plumbing1-2":[
+			{"namadevice":"PLUMBING1_ETC", "deviceid":"b1d2bdf0-d346-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"PLUMBING2_ETC", "deviceid":"bb049010-d346-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"PLUMBING1_PILOTSPM91", "deviceid":"54d92ad0-d346-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"PLUMBING2_PILOTSPM91", "deviceid":"6335c5c0-d346-11e8-87ee-4be867fcc47c"}
+		],
+		"plumbing3":[
+			{"namadevice":"PLUMBING3_ETC", "deviceid":"c2b2f680-d346-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"PLUMBING3_PILOTSPM91", "deviceid":"6c8028f0-d346-11e8-87ee-4be867fcc47c"}
 		]
 	}
 }
