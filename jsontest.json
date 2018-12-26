@@ -26,6 +26,14 @@
 			{"namadevice":"K_DIRISA20", "deviceid":"8a68c920-d1bc-11e8-87ee-4be867fcc47c"},
 			{"namadevice":"K_ETC", "deviceid":"906ba270-d1bc-11e8-87ee-4be867fcc47c"}
 		],
+		"panelM":[
+			{"namadevice":"M_PILOTSPM33", "deviceid":"ef3d96a0-ed69-11e8-a2f1-29cef63c4974"},
+			{"namadevice":"M_ETC", "deviceid":"fd948c40-ed69-11e8-a2f1-29cef63c4974"}
+		],
+		"panelI":[
+			{"namadevice":"I_PILOTSPM33", "deviceid":"f645f6f0-d1bb-11e8-87ee-4be867fcc47c"},
+			{"namadevice":"I_ETC", "deviceid":"ff1780a0-d1bb-11e8-87ee-4be867fcc47c"}
+		],
 		"LVMDP":[
 			{"namadevice":"LVMDB_PILOTSPM33", "deviceid":"bef9c9c0-d1bf-11e8-87ee-4be867fcc47c"},
 			{"namadevice":"LVMDB-TRAFOROOM_ETC", "deviceid":"ccc03f30-d1bf-11e8-87ee-4be867fcc47c"}
